@@ -37,4 +37,4 @@ for review in reviews_cursor:
     if done % 100 == 0:
         end = time.time()
         os.system('cls')
-        print 'Done ' + str(done) + ' out of ' + str(reviewsCount) + ' in ' + str((end - start))
+        print ('Done ' + str(done) + ' out of ' + str(reviewsCount) + ' in ' + str((end - start)))
