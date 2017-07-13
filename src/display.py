@@ -16,5 +16,5 @@ corpus = corpora.BleiCorpus(corpus_path)
 lda = LdaModel.load(lda_model_path)
 
 for i, topic in enumerate(lda.show_topics(num_topics=lda_num_topics)):
-    print '#%i: %s' %(i, str(topic))
+    print ('#%i: %s' %(i, str(topic)))
 
